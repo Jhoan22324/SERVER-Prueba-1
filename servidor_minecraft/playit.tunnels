@@ -1,0 +1,95 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "think-absolutely.gl.joinmc.link",
+          "assigned_srv": "think-absolutely.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "3f68e601-c702-48a9-b630-0b36bfa707ae",
+          "ip_hostname": "30.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 42389,
+          "port_start": 42388,
+          "region": "global",
+          "static_ip4": "147.185.221.30",
+          "static_ip6": "2602:fbaf:0:1::1e",
+          "tunnel_ip": "2602:fbaf:0:1::1e"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2025-07-31T22:19:37.990964Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "a84c8177-90fe-47d8-bb39-ffc987ecfb13",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "4fc3c289-f1bf-4a89-9faa-8bd1527722e6",
+          "agent_name": "from-key-a7f8",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "reason": "over-port-limit"
+        },
+        "status": "disabled"
+      },
+      "created_at": "2025-08-05T15:59:18.472731Z",
+      "disabled_reason": "over-port-limit",
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "aed6ac5a-9978-4b73-bee8-23bf9b5df91e",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "4fc3c289-f1bf-4a89-9faa-8bd1527722e6",
+          "agent_name": "from-key-a7f8",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 24454,
+      "port_type": "udp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
