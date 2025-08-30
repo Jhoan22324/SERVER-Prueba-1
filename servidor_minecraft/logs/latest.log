@@ -88,3 +88,32 @@
 [12:45:28] [Server thread/INFO]: SebasyTU_ issued server command: //set cobblestone
 [12:45:44] [Server thread/INFO]: SebasyTU_ issued server command: //set 0
 [12:45:55] [Server thread/INFO]: SebasyTU_ issued server command: //set 0
+[12:46:42] [Server thread/INFO]: SebasyTU_ issued server command: //set cobblestone
+[12:47:22] [Server thread/INFO]: SebasyTU_ issued server command: //set cobblestone
+[12:47:50] [Server thread/INFO]: SebasyTU_ issued server command: //set cobblestone
+[12:48:05] [Server thread/INFO]: SebasyTU_ issued server command: //set cobblestone
+[12:49:39] [Server thread/INFO]: Villager Villager['Leatherworker'/267, uuid='6797bbcd-643f-48b6-97dd-4d7cc423caa1', l='ServerLevel[world]', x=246.21, y=78.00, z=816.70, cpos=[15, 51], tl=12500, v=true] died, message: 'Leatherworker was slain by Zombie'
+[12:50:14] [Server thread/INFO]: SebasyTU_ issued server command: //brush sphere cobblestone,stone,andesite
+[12:50:36] [Server thread/INFO]: SebasyTU_ issued server command: /brush apply sphere set cobblestone
+[12:50:58] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[12:51:29] [Server thread/INFO]: SebasyTU_ issued server command: /brush sphere stone,cobblestone,andesite
+[12:51:37] [Server thread/INFO]: SebasyTU_ issued server command: //undo
+[12:52:07] [Server thread/INFO]: SebasyTU_ issued server command: //br sphere diamond_block
+[12:52:20] [Server thread/INFO]: SebasyTU_ issued server command: /brush unbind
+[12:54:47] [Server thread/INFO]: SebasyTU_ issued server command: /repl cobblestone
+[12:56:07] [Server thread/INFO]: SebasyTU_ issued server command: /tool unbind
+[12:56:14] [Server thread/INFO]: SebasyTU_ issued server command: /tool unbind
+[12:56:40] [Server thread/INFO]: SebasyTU_ issued server command: /br sphere stone,andesite,cobblestone 5
+[12:56:57] [Server thread/INFO]: SebasyTU_ issued server command: /mask cobblestone
+[12:58:09] [Server thread/INFO]: SebasyTU_ issued server command: /br sphere diamond_block 5
+[12:58:31] [Server thread/INFO]: SebasyTU_ issued server command: /mask andesite,cobblestone,stone
+[12:59:10] [Server thread/INFO]: Unknown or incomplete command, see below for error
+asdasd<--[HERE]
+[12:59:39] [Server thread/INFO]: SebasyTU_ issued server command: /mask diamond_block
+[12:59:55] [Server thread/INFO]: SebasyTU_ issued server command: /br sphere stone,andesite,cobblestone 5
+[13:01:32] [Server thread/INFO]: SebasyTU_ issued server command: //set diamond_block
+[13:03:11] [Server thread/INFO]: SebasyTU_ issued server command: //set 0
+[13:03:58] [Server thread/INFO]: SebasyTU_ issued server command: //set 0
+[13:04:41] [User Authenticator #1/INFO]: UUID of player Jhennsdm is 29cb5f03-1d37-379f-a6fb-d0620d083c9e
+[13:04:44] [Server thread/INFO]: Jhennsdm joined the game
+[13:04:44] [Server thread/INFO]: Jhennsdm[/127.229.234.79:59877] logged in with entity id 4665 at ([world]-1011.4046326897122, 63.0, -538.0106498868989)
