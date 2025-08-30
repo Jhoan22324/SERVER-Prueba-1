@@ -1,338 +1,128 @@
-[16:59:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[16:59:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[16:59:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:59:26] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-bukkit-7.3.16.jar'...
-[16:59:30] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-bukkit-7.3.16.jar' in 3778ms.
-[16:59:30] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[16:59:30] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[18:53:23] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[18:53:23] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[18:53:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:53:24] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[18:53:24] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - WorldEdit (7.3.16+cbf4bd5)
-[16:59:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:59:40] [ServerMain/INFO]: Loaded 1407 recipes
-[16:59:40] [ServerMain/INFO]: Loaded 1520 advancements
-[16:59:40] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[16:59:41] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 981.9ms
-[16:59:42] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[16:59:42] [Server thread/INFO]: Loading properties
-[16:59:42] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[16:59:42] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:59:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:59:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:59:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[16:59:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[16:59:44] [Server thread/INFO]: Default game type: SURVIVAL
-[16:59:44] [Server thread/INFO]: Generating keypair
-[16:59:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:59:44] [Server thread/INFO]: Using epoll channel type
-[16:59:44] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:59:44] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[16:59:44] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
-[16:59:46] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7e7568c7]
-[16:59:46] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
-[16:59:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:59:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
-[16:59:46] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:59:46] [Server thread/INFO]: WEPIF: Updated config file
-[16:59:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:59:46] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
-[16:59:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:59:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:59:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:59:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:59:49] [Server thread/INFO]: Preparing level "world"
-[16:59:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:59:51] [Server thread/INFO]: Preparing spawn area: 0%
-[16:59:52] [Server thread/INFO]: Preparing spawn area: 2%
-[16:59:52] [Server thread/INFO]: Preparing spawn area: 46%
-[16:59:53] [Server thread/INFO]: Preparing spawn area: 63%
-[16:59:53] [Server thread/INFO]: Time elapsed: 1835 ms
-[16:59:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:59:53] [Server thread/INFO]: Preparing spawn area: 0%
-[16:59:53] [Server thread/INFO]: Time elapsed: 469 ms
-[16:59:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:59:53] [Server thread/INFO]: Preparing spawn area: 0%
-[16:59:53] [Server thread/INFO]: Time elapsed: 259 ms
-[16:59:54] [Server thread/INFO]: [spark] Starting background profiler...
-[16:59:54] [Server thread/INFO]: Done preparing level "world" (5.148s)
-[16:59:54] [Server thread/INFO]: Running delayed init tasks
-[16:59:54] [Server thread/INFO]: Done (30.098s)! For help, type "help"
-[17:00:09] [User Authenticator #0/INFO]: UUID of player Davidby2007 is a3e1127d-039b-36c2-bfca-bcc1abca5a2e
-[17:00:11] [Server thread/INFO]: Davidby2007 joined the game
-[17:00:11] [Server thread/INFO]: Davidby2007[/127.153.111.46:37487] logged in with entity id 19 at ([world]-1451.2195959211851, 94.0, -766.026180484115)
-[17:01:00] [User Authenticator #0/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[17:01:01] [Server thread/INFO]: SebasyTU_ joined the game
-[17:01:01] [Server thread/INFO]: SebasyTU_[/127.2.53.214:43087] logged in with entity id 229 at ([world]249.75578941985165, 64.0, 888.6539133673829)
-[17:01:05] [Server thread/INFO]: Davidby2007 lost connection: Timed out
-[17:01:05] [Server thread/INFO]: Davidby2007 left the game
-[17:01:14] [Server thread/INFO]: SebasyTU_ issued server command: /pl
-[17:01:52] [User Authenticator #0/INFO]: UUID of player zSxhio is 1c890bda-bbf3-31c2-91aa-0cfd556c5635
-[17:01:52] [Server thread/INFO]: zSxhio joined the game
-[17:01:52] [Server thread/INFO]: zSxhio[/127.34.225.252:51681] logged in with entity id 563 at ([world]220.30000001192093, 69.0, 991.7812695642455)
-[17:02:00] [Server thread/INFO]: Made SebasyTU_ a server operator
-[17:02:16] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[17:02:20] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[17:02:29] [Server thread/INFO]: SebasyTU_ issued server command: //set 0
-[17:02:56] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[17:04:55] [Server thread/INFO]: SebasyTU_ issued server command: //set stone
-[17:05:18] [Server thread/INFO]: SebasyTU_ issued server command: //set stone
-[17:05:33] [Server thread/INFO]: SebasyTU_ issued server command: //set stone
-[17:06:23] [Server thread/INFO]: SebasyTU_ issued server command: /br sphere glass 5
-[17:06:31] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:06:45] [Server thread/INFO]: SebasyTU_ issued server command: //sphere glass 20
-[17:06:58] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
-[17:07:08] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:07:29] [Netty Epoll Server IO #1/INFO]: Disconnecting zSxhio for sending keepalive response (36126264) out-of-order!
-[17:07:29] [Server thread/INFO]: zSxhio lost connection: Timed out
-[17:07:29] [Server thread/INFO]: zSxhio left the game
-[17:07:54] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[17:08:50] [Server thread/INFO]: SebasyTU_ issued server command: //hsphere glass 15
-[17:09:00] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:09:20] [Server thread/INFO]: SebasyTU_ issued server command: //sphere air
-[17:09:35] [Server thread/INFO]: SebasyTU_ issued server command: //sphere air 15
-[17:09:49] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:10:08] [Async Chat Thread - #1/INFO]: [Not Secure] <SebasyTU_> 191 64 894
-[17:10:17] [Server thread/INFO]: SebasyTU_ issued server command: //sphere air 15
-[17:10:42] [Server thread/INFO]: SebasyTU_ issued server command: //hsphere glass 15
-[17:10:55] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
-[17:10:58] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[17:11:27] [Server thread/INFO]: SebasyTU_ issued server command: //set stone
-[17:14:28] [Server thread/INFO]: SebasyTU_ issued server command: /tp 191 64 894
-[17:14:28] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 191.500000, 64.000000, 894.500000]
-[17:15:42] [Server thread/INFO]: SebasyTU_ issued server command: //cyl grass_block 14
-[17:16:21] [Server thread/INFO]: SebasyTU_ issued server command: /tp 191 64 894
-[17:16:21] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 191.500000, 64.000000, 894.500000]
-[17:17:08] [Server thread/INFO]: SebasyTU_ issued server command: //cyl stone 12
-[17:17:16] [Server thread/INFO]: SebasyTU_ issued server command: /tp 191 64 894
-[17:17:16] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 191.500000, 64.000000, 894.500000]
-[17:17:42] [User Authenticator #1/INFO]: UUID of player Davidby2007 is a3e1127d-039b-36c2-bfca-bcc1abca5a2e
-[17:17:43] [Server thread/INFO]: Davidby2007 joined the game
-[17:17:43] [Server thread/INFO]: Davidby2007[/127.153.111.46:43083] logged in with entity id 2349 at ([world]-1451.300000011921, 87.0, -766.3408266052202)
-[17:17:53] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:18:03] [Server thread/INFO]: SebasyTU_ issued server command: //hcyl stone 12
-[17:18:22] [Async Chat Thread - #2/INFO]: [Not Secure] <Davidby2007> me das la zanahoria?
-[17:18:35] [Async Chat Thread - #2/INFO]: [Not Secure] <SebasyTU_> porq no entras a llamada??
-[17:18:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Davidby2007> esta inicando el disc
-[17:18:53] [Async Chat Thread - #2/INFO]: [Not Secure] <SebasyTU_> a
-[17:18:55] [Async Chat Thread - #2/INFO]: [Not Secure] <SebasyTU_> ok
-[17:19:02] [Async Chat Thread - #3/INFO]: [Not Secure] <SebasyTU_> ehhh si te doy una cuendo acabe esto
-[17:19:26] [Server thread/INFO]: SebasyTU_ issued server command: /tp 191 64 894
-[17:19:26] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to 191.500000, 64.000000, 894.500000]
-[17:19:48] [Server thread/INFO]: SebasyTU_ issued server command: //hcyl stone 8
-[17:25:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3662ms or 73 ticks behind
-[17:27:17] [Async Chat Thread - #5/INFO]: [Not Secure] <Davidby2007> -439 71 -185
-[17:27:37] [Async Chat Thread - #5/INFO]: [Not Secure] <Davidby2007> dl manda
-[17:27:55] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 SebasyTU_
-[17:27:55] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to SebasyTU_]
-[17:27:56] [Server thread/INFO]: [SebasyTU_: Set own game mode to Spectator Mode]
-[17:27:58] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[17:28:03] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[17:28:10] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[17:28:17] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[17:30:15] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[17:30:20] [Server thread/INFO]: Davidby2007 lost connection: Timed out
-[17:30:20] [Server thread/INFO]: Davidby2007 left the game
-[17:31:51] [Server thread/INFO]: SebasyTU_ issued server command: //sphere cherry_leaves 3
-[17:31:56] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:32:24] [Server thread/INFO]: SebasyTU_ issued server command: /br sphere cherry_leaves 3
-[17:32:31] [Server thread/INFO]: SebasyTU_ issued server command: /undo
-[17:32:34] [Server thread/INFO]: SebasyTU_ issued server command: /br sphere cherry_leaves 2
-[17:33:02] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:33:04] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:33:05] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:33:05] [User Authenticator #2/INFO]: UUID of player Davidby2007 is a3e1127d-039b-36c2-bfca-bcc1abca5a2e
-[17:33:07] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:33:07] [Server thread/INFO]: Davidby2007 joined the game
-[17:33:07] [Server thread/INFO]: Davidby2007[/127.153.111.46:35429] logged in with entity id 5192 at ([world]185.31926191775472, 66.0, 904.4493615947265)
-[17:33:09] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:33:13] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:33:16] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:33:17] [Server thread/INFO]: SebasyTU_ issued server command: /undo
-[17:33:20] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:33:22] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:33:24] [Server thread/INFO]: SebasyTU_ issued server command: /undo
-[17:33:25] [Server thread/INFO]: SebasyTU_ issued server command: /undo
-[17:33:28] [Server thread/INFO]: SebasyTU_ issued server command: /undo
-[17:33:31] [Server thread/INFO]: SebasyTU_ issued server command: /undo
-[17:33:33] [Server thread/INFO]: SebasyTU_ issued server command: /undo
-[17:33:36] [Server thread/INFO]: SebasyTU_ issued server command: /undo
-[17:33:45] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[17:38:08] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 SebasyTU_
-[17:38:08] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to SebasyTU_]
-[17:39:25] [Server thread/INFO]: SebasyTU_ issued server command: /tp -439 71 -185
-[17:39:25] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to -438.500000, 71.000000, -184.500000]
-[17:39:39] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007
-[17:39:39] [Server thread/INFO]: [SebasyTU_: Teleported SebasyTU_ to Davidby2007]
-[17:39:59] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 -439 71 -185
-[17:39:59] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to -438.500000, 71.000000, -184.500000]
-[17:40:41] [Async Chat Thread - #6/INFO]: [Not Secure] <SebasyTU_> -439 71 -185
-[17:41:28] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[17:42:10] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 SebasyTU_
-[17:42:10] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to SebasyTU_]
-[17:42:29] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[17:42:47] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 -439 71 -185
-[17:42:47] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to -438.500000, 71.000000, -184.500000]
-[17:43:07] [Server thread/INFO]: SebasyTU_ issued server command: /gamerule locatorBar false
-[17:43:07] [Server thread/INFO]: [SebasyTU_: Gamerule locatorBar is now set to: false]
-[17:43:09] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 SebasyTU_
-[17:43:09] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to SebasyTU_]
-[17:43:50] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[17:44:34] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 -439 71 -85
-[17:44:34] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to -438.500000, 71.000000, -84.500000]
-[17:44:59] [Server thread/INFO]: SebasyTU_ issued server command: /tp Davidby2007 -439 71 -185
-[17:44:59] [Server thread/INFO]: [SebasyTU_: Teleported Davidby2007 to -438.500000, 71.000000, -184.500000]
-[17:45:55] [Server thread/INFO]: SebasyTU_ issued server command: //set gold_block
-[17:46:04] [Server thread/INFO]: SebasyTU_ issued server command: //set gold_block
-[17:46:15] [Server thread/INFO]: SebasyTU_ issued server command: //set gold_block
-[17:46:25] [Server thread/INFO]: SebasyTU_ issued server command: //set gold_block
-[17:46:34] [Server thread/INFO]: SebasyTU_ issued server command: //set gold_block
-[17:46:42] [Server thread/INFO]: SebasyTU_ issued server command: //set gold_block
-[17:46:49] [Server thread/INFO]: SebasyTU_ issued server command: //set gold_block
-[17:47:03] [Server thread/INFO]: SebasyTU_ issued server command: //set gold_block
-[17:50:47] [Server thread/INFO]: Villager Villager['Nitwit'/7594, uuid='646ce087-b5e7-40d5-aa3e-c18a564919e7', l='ServerLevel[world]', x=275.70, y=63.00, z=773.42, cpos=[17, 48], tl=8306, v=true] died, message: 'Nitwit was slain by Zombie'
-[17:50:49] [Server thread/INFO]: SebasyTU_ issued server command: /br sphere spruce_planks,stripped_spruce_wood 5
-[17:50:56] [Server thread/INFO]: SebasyTU_ issued server command: /mask gold_block
-[17:51:54] [Server thread/INFO]: Davidby2007 fell from a high place
-[17:52:34] [Async Chat Thread - #9/INFO]: [Not Secure] <Davidby2007> - 1443 71 -790
-[17:53:28] [Server thread/INFO]: SebasyTU_ issued server command: //set gold_block
-[17:54:27] [Server thread/INFO]: SebasyTU_ issued server command: //set gold_block
-[17:55:16] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:55:30] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:55:37] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:55:43] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:55:48] [Server thread/INFO]: SebasyTU_ issued server command: //undo
-[17:56:00] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:56:07] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:56:14] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:57:10] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:57:15] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:57:24] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:57:30] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:57:34] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:57:40] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[17:58:02] [Async Chat Thread - #10/INFO]: [Not Secure] <Davidby2007> ayudaaaaa
-[17:58:11] [Async Chat Thread - #11/INFO]: [Not Secure] <Davidby2007> a buscar
-[17:59:11] [Server thread/INFO]: SebasyTU_ issued server command: /br sphere stripped_birch_wood,birch_planks 5
-[17:59:14] [Server thread/INFO]: SebasyTU_ issued server command: /br sphere stripped_birch_wood,birch_planks 5
-[17:59:21] [Server thread/INFO]: SebasyTU_ issued server command: /mask emerald_block
-[17:59:27] [Server thread/INFO]: SebasyTU_ issued server command: /mask emerald_block 5
-[17:59:54] [Server thread/INFO]: Davidby2007 fell from a high place
-[18:01:08] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[18:02:43] [Server thread/INFO]: SebasyTU_ issued server command: //set emerald_block
-[18:02:59] [Server thread/INFO]: Davidby2007 was slain by Zombie
-[18:03:18] [Server thread/INFO]: Davidby2007 lost connection: Timed out
-[18:03:18] [Server thread/INFO]: Davidby2007 left the game
-[18:06:57] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[18:07:00] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
-[18:07:00] [Server thread/INFO]: SebasyTU_ left the game
-[18:12:43] [User Authenticator #3/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[18:12:44] [Server thread/INFO]: SebasyTU_ joined the game
-[18:12:44] [Server thread/INFO]: SebasyTU_[/127.2.53.214:39065] logged in with entity id 17699 at ([world]245.557985111254, 64.0, 930.6312142211416)
-[18:12:50] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[18:15:49] [Server thread/INFO]: SebasyTU_ issued server command: //set 0
-[18:19:50] [User Authenticator #4/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
-[18:19:51] [Server thread/INFO]: regsexl joined the game
-[18:19:51] [Server thread/INFO]: regsexl[/127.135.38.35:46065] logged in with entity id 18950 at ([world]188.46694450812632, -37.0, 970.9996900115184)
-[18:22:12] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[18:22:15] [Server thread/INFO]: SebasyTU_ issued server command: /tp regsexl SebasyTU_
-[18:22:15] [Server thread/INFO]: [SebasyTU_: Teleported regsexl to SebasyTU_]
-[18:22:36] [User Authenticator #5/INFO]: UUID of player Davidby2007 is a3e1127d-039b-36c2-bfca-bcc1abca5a2e
-[18:23:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@167fb19d[id=a3e1127d-039b-36c2-bfca-bcc1abca5a2e,name=Davidby2007,properties={}] lost connection: Timed out
-[18:23:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@167fb19d[id=a3e1127d-039b-36c2-bfca-bcc1abca5a2e,name=Davidby2007,properties={}] lost connection: Timed out
-[18:26:31] [Server thread/INFO]: SebasyTU_ issued server command: /experience add SebasyTU_ 50 levels
-[18:26:31] [Server thread/INFO]: [SebasyTU_: Gave 50 experience levels to SebasyTU_]
-[18:26:42] [Server thread/INFO]: SebasyTU_ issued server command: /give SebasyTU_ minecraft:diamond 20
-[18:26:42] [Server thread/INFO]: [SebasyTU_: Gave 20 [Diamond] to SebasyTU_]
-[18:27:14] [Server thread/INFO]: regsexl has made the advancement [Cover Me with Diamonds]
-[18:27:56] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[18:27:58] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[18:28:46] [User Authenticator #6/INFO]: UUID of player XF4IRONIX is 14dcf755-8aba-3d1d-9fa5-63bddb98b973
-[18:28:48] [Server thread/INFO]: XF4IRONIX joined the game
-[18:28:48] [Server thread/INFO]: XF4IRONIX[/127.115.73.49:57703] logged in with entity id 20264 at ([world]208.69999998807907, 64.0, 919.6999999880791)
-[18:28:56] [User Authenticator #6/INFO]: UUID of player Davidby2007 is a3e1127d-039b-36c2-bfca-bcc1abca5a2e
-[18:28:57] [Server thread/INFO]: Davidby2007 joined the game
-[18:28:57] [Server thread/INFO]: Davidby2007[/127.153.111.46:35799] logged in with entity id 20276 at ([world]-1583.32083476709, 63.0, -530.8991032684594)
-[18:29:31] [Async Chat Thread - #12/INFO]: [Not Secure] <SebasyTU_> unete a dc
-[18:29:36] [Async Chat Thread - #13/INFO]: [Not Secure] <XF4IRONIX> OK
-[18:29:48] [Async Chat Thread - #12/INFO]: [Not Secure] <XF4IRONIX> voy
-[18:29:56] [Server thread/INFO]: regsexl has made the advancement [We Need to Go Deeper]
-[18:30:53] [Async Chat Thread - #15/INFO]: [Not Secure] <SebasyTU_> estas'
-[18:30:55] [Async Chat Thread - #15/INFO]: [Not Secure] <SebasyTU_> ????
-[18:31:28] [Async Chat Thread - #15/INFO]: [Not Secure] <SebasyTU_> me escuchas si o no
-[18:31:29] [Async Chat Thread - #15/INFO]: [Not Secure] <SebasyTU_> mrd
-[18:31:40] [Async Chat Thread - #15/INFO]: [Not Secure] <SebasyTU_> XF4IRONIX reespondee
-[18:31:41] [Async Chat Thread - #15/INFO]: [Not Secure] <SebasyTU_> mrd
-[18:31:50] [Async Chat Thread - #14/INFO]: [Not Secure] <XF4IRONIX> no te escuho
-[18:31:56] [Async Chat Thread - #15/INFO]: [Not Secure] <SebasyTU_> porrr
-[18:32:01] [Async Chat Thread - #14/INFO]: [Not Secure] <SebasyTU_> ¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?
-[18:32:03] [Async Chat Thread - #15/INFO]: [Not Secure] <XF4IRONIX> yo q se
-[18:32:13] [Async Chat Thread - #14/INFO]: [Not Secure] <SebasyTU_> suveme el volumen
-[18:32:20] [Async Chat Thread - #14/INFO]: [Not Secure] <SebasyTU_> ademas estas mutee
-[18:32:28] [Async Chat Thread - #14/INFO]: [Not Secure] <Davidby2007> -226 74 90
-[18:33:16] [Server thread/INFO]: Davidby2007 fell from a high place
-[18:33:28] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[18:34:04] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[18:36:35] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[18:36:42] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
-[18:37:38] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
-[18:43:18] [Server thread/INFO]: SebasyTU_ was kicked due to keepalive timeout!
-[18:43:18] [Server thread/INFO]: SebasyTU_ lost connection: Timed out
-[18:43:18] [Server thread/INFO]: SebasyTU_ left the game
-[18:43:54] [User Authenticator #7/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[18:44:03] [Server thread/INFO]: SebasyTU_ joined the game
-[18:44:03] [Server thread/INFO]: SebasyTU_[/127.2.53.214:52813] logged in with entity id 26338 at ([world]223.7836269895527, 104.47751693254789, 961.0585224168697)
-[18:44:34] [Server thread/INFO]: SebasyTU_ was kicked due to keepalive timeout!
-[18:44:34] [Server thread/INFO]: SebasyTU_ lost connection: Timed out
-[18:44:34] [Server thread/INFO]: SebasyTU_ left the game
-[18:44:54] [User Authenticator #7/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[18:45:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@67abeef3[id=77a390da-81bb-3a9a-83b6-98e9f9115325,name=SebasyTU_,properties={}] lost connection: Timed out
-[18:45:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@67abeef3[id=77a390da-81bb-3a9a-83b6-98e9f9115325,name=SebasyTU_,properties={}] lost connection: Timed out
-[18:46:01] [User Authenticator #8/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[18:46:07] [Server thread/INFO]: SebasyTU_ joined the game
-[18:46:07] [Server thread/INFO]: SebasyTU_[/127.2.53.214:43853] logged in with entity id 26939 at ([world]220.3668389546184, 107.0, 961.4462002188036)
-[18:46:21] [Server thread/INFO]: SebasyTU_ lost connection: Disconnected
-[18:46:21] [Server thread/INFO]: SebasyTU_ left the game
-[18:48:03] [User Authenticator #9/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
-[18:48:09] [Server thread/INFO]: SebasyTU_ joined the game
-[18:48:09] [Server thread/INFO]: SebasyTU_[/127.2.53.214:59339] logged in with entity id 27681 at ([world]220.3668389546184, 107.0, 961.4462002188036)
-[18:48:40] [Server thread/INFO]: SebasyTU_ was kicked due to keepalive timeout!
-[18:48:40] [Server thread/INFO]: SebasyTU_ lost connection: Timed out
-[18:48:40] [Server thread/INFO]: SebasyTU_ left the game
-[18:51:44] [Server thread/INFO]: Stopping server
-[18:51:44] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
-[18:51:44] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[18:51:44] [Server thread/INFO]: Saving players
-[18:51:44] [Server thread/INFO]: regsexl lost connection: Server closed
-[18:51:44] [Server thread/INFO]: regsexl left the game
-[18:51:44] [Server thread/INFO]: XF4IRONIX lost connection: Server closed
-[18:51:44] [Server thread/INFO]: XF4IRONIX left the game
-[18:51:44] [Server thread/INFO]: Davidby2007 lost connection: Server closed
-[18:51:44] [Server thread/INFO]: Davidby2007 left the game
-[18:51:45] [Server thread/INFO]: Saving worlds
-[18:51:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:51:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:51:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:51:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:51:48] [Server thread/INFO]: [ChunkHolderManager] Saved 625 block chunks, 626 entity chunks, 1 poi chunks in world 'world' in 3.30s
-[18:51:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[18:51:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[18:51:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:51:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:51:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:51:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:51:51] [Server thread/INFO]: [ChunkHolderManager] Saved 1453 block chunks, 621 entity chunks, 0 poi chunks in world 'world_nether' in 3.21s
-[18:51:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[18:51:51] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[18:51:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:51:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:51:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:51:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:51:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[18:51:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[18:51:51] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[18:51:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:51:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:51:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:51:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:51:51] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[18:51:51] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[18:51:51] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[18:51:51] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[18:53:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:53:35] [ServerMain/INFO]: Loaded 1407 recipes
+[18:53:35] [ServerMain/INFO]: Loaded 1520 advancements
+[18:53:36] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[18:53:36] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 669.3ms
+[18:53:36] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[18:53:36] [Server thread/INFO]: Loading properties
+[18:53:37] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[18:53:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:53:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:53:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:53:38] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[18:53:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[18:53:39] [Server thread/INFO]: Default game type: SURVIVAL
+[18:53:39] [Server thread/INFO]: Generating keypair
+[18:53:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:53:39] [Server thread/INFO]: Using epoll channel type
+[18:53:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:53:39] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[18:53:40] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[18:53:41] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4c57a311]
+[18:53:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:53:41] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[18:53:41] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:53:41] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:53:42] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[18:53:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:53:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:53:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:53:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:53:45] [Server thread/INFO]: Preparing level "world"
+[18:53:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:53:47] [Server thread/INFO]: Preparing spawn area: 0%
+[18:53:47] [Server thread/INFO]: Preparing spawn area: 0%
+[18:53:48] [Server thread/INFO]: Preparing spawn area: 2%
+[18:53:48] [Server thread/INFO]: Preparing spawn area: 48%
+[18:53:49] [Server thread/INFO]: Preparing spawn area: 93%
+[18:53:49] [Server thread/INFO]: Time elapsed: 2474 ms
+[18:53:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:53:49] [Server thread/INFO]: Preparing spawn area: 0%
+[18:53:49] [Server thread/INFO]: Time elapsed: 494 ms
+[18:53:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:53:49] [Server thread/INFO]: Preparing spawn area: 0%
+[18:53:50] [Server thread/INFO]: Time elapsed: 184 ms
+[18:53:50] [Server thread/INFO]: [spark] Starting background profiler...
+[18:53:51] [Server thread/INFO]: Done preparing level "world" (5.925s)
+[18:53:51] [Server thread/INFO]: Running delayed init tasks
+[18:53:51] [Server thread/INFO]: Done (29.136s)! For help, type "help"
+[18:53:51] [Server thread/INFO]: Davidby2007 (/127.153.111.46:41529) lost connection: Disconnected
+[18:53:51] [User Authenticator #0/INFO]: UUID of player Davidby2007 is a3e1127d-039b-36c2-bfca-bcc1abca5a2e
+[18:53:57] [User Authenticator #0/INFO]: UUID of player Davidby2007 is a3e1127d-039b-36c2-bfca-bcc1abca5a2e
+[18:53:59] [Server thread/INFO]: Davidby2007 joined the game
+[18:53:59] [Server thread/INFO]: Davidby2007[/127.153.111.46:44741] logged in with entity id 20 at ([world_nether]-242.85082834461107, 46.0, 266.60906816169205)
+[18:54:04] [User Authenticator #0/INFO]: UUID of player XF4IRONIX is 14dcf755-8aba-3d1d-9fa5-63bddb98b973
+[18:54:06] [Server thread/INFO]: XF4IRONIX joined the game
+[18:54:06] [Server thread/INFO]: XF4IRONIX[/127.115.73.49:33195] logged in with entity id 172 at ([world]217.69999998807907, 64.0, 955.5076775769978)
+[18:54:13] [User Authenticator #0/INFO]: UUID of player regsexl is 7712c6cf-a2fb-3e2a-ac83-eb64ed372be2
+[18:54:13] [Server thread/INFO]: regsexl joined the game
+[18:54:13] [Server thread/INFO]: regsexl[/127.135.38.35:50249] logged in with entity id 386 at ([world]220.71156216755585, 64.0, 953.4545690192487)
+[18:54:23] [Server thread/INFO]: regsexl has made the advancement [Ice Bucket Challenge]
+[18:54:57] [Server thread/INFO]: Davidby2007 has made the advancement [Those Were the Days]
+[18:55:30] [Server thread/INFO]: Gamerule keepInventory is now set to: true
+[18:55:39] [Server thread/INFO]: XF4IRONIX was killed
+[18:55:39] [Server thread/INFO]: Killed XF4IRONIX
+[18:55:50] [Server thread/INFO]: Teleported XF4IRONIX to regsexl
+[18:56:00] [Server thread/INFO]: Davidby2007 has made the advancement [War Pigs]
+[18:56:02] [Server thread/INFO]: Gamerule keepInventory is now set to: false
+[18:56:24] [User Authenticator #1/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[18:56:43] [Server thread/INFO]: com.mojang.authlib.GameProfile@4ce71fa4[id=77a390da-81bb-3a9a-83b6-98e9f9115325,name=SebasyTU_,properties={}] lost connection: Timed out
+[18:56:43] [Server thread/INFO]: com.mojang.authlib.GameProfile@4ce71fa4[id=77a390da-81bb-3a9a-83b6-98e9f9115325,name=SebasyTU_,properties={}] lost connection: Timed out
+[18:57:00] [User Authenticator #1/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[18:57:02] [Server thread/INFO]: SebasyTU_ joined the game
+[18:57:02] [Server thread/INFO]: SebasyTU_[/127.2.53.214:41457] logged in with entity id 969 at ([world]220.3668389546184, 107.0, 961.4462002188036)
+[18:57:34] [Server thread/INFO]: SebasyTU_ was kicked due to keepalive timeout!
+[18:57:34] [Server thread/INFO]: SebasyTU_ lost connection: Timed out
+[18:57:34] [Server thread/INFO]: SebasyTU_ left the game
+[18:58:07] [User Authenticator #2/INFO]: UUID of player SebasyTU_ is 77a390da-81bb-3a9a-83b6-98e9f9115325
+[18:58:13] [Server thread/INFO]: SebasyTU_ joined the game
+[18:58:13] [Server thread/INFO]: SebasyTU_[/127.2.53.214:56973] logged in with entity id 1331 at ([world]220.3668389546184, 107.0, 961.4462002188036)
+[18:58:44] [Server thread/INFO]: SebasyTU_ was kicked due to keepalive timeout!
+[18:58:44] [Server thread/INFO]: SebasyTU_ lost connection: Timed out
+[18:58:44] [Server thread/INFO]: SebasyTU_ left the game
+[19:00:52] [Server thread/INFO]: Davidby2007 lost connection: Timed out
+[19:00:52] [Server thread/INFO]: Davidby2007 left the game
+[19:01:51] [Server thread/INFO]: Stopping server
+[19:01:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
+[19:01:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:01:51] [Server thread/INFO]: Saving players
+[19:01:51] [Server thread/INFO]: regsexl lost connection: Server closed
+[19:01:51] [Server thread/INFO]: regsexl left the game
+[19:01:51] [Server thread/INFO]: XF4IRONIX lost connection: Server closed
+[19:01:51] [Server thread/INFO]: XF4IRONIX left the game
+[19:01:52] [Server thread/INFO]: Saving worlds
+[19:01:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:01:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:01:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:01:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:01:53] [Server thread/INFO]: [ChunkHolderManager] Saved 330 block chunks, 519 entity chunks, 2 poi chunks in world 'world' in 1.01s
+[19:01:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[19:01:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[19:01:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:01:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:01:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:01:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:01:56] [Server thread/INFO]: [ChunkHolderManager] Saved 483 block chunks, 487 entity chunks, 1 poi chunks in world 'world_nether' in 3.42s
+[19:01:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[19:01:56] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[19:01:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:01:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:01:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:01:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:01:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[19:01:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[19:01:56] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[19:01:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:01:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:01:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:01:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:01:56] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[19:01:56] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[19:01:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[19:01:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
