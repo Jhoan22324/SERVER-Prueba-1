@@ -117,3 +117,11 @@ asdasd<--[HERE]
 [13:04:41] [User Authenticator #1/INFO]: UUID of player Jhennsdm is 29cb5f03-1d37-379f-a6fb-d0620d083c9e
 [13:04:44] [Server thread/INFO]: Jhennsdm joined the game
 [13:04:44] [Server thread/INFO]: Jhennsdm[/127.229.234.79:59877] logged in with entity id 4665 at ([world]-1011.4046326897122, 63.0, -538.0106498868989)
+[13:07:18] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[13:08:47] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[13:09:03] [Server thread/INFO]: SebasyTU_ issued server command: //set 0
+[13:09:34] [Server thread/INFO]: [SebasyTU_: Set own game mode to Survival Mode]
+[13:09:35] [Server thread/INFO]: [SebasyTU_: Set own game mode to Creative Mode]
+[13:09:42] [Server thread/INFO]: SebasyTU_ issued server command: //set 0
+[13:12:43] [Server thread/INFO]: SebasyTU_ issued server command: //set 0
+[13:14:04] [Server thread/WARN]: Jhennsdm moved wrongly!
