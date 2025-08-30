@@ -1,19 +1,19 @@
-[16:32:57] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[16:32:57] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[16:32:58] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:32:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[16:32:59] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[16:36:41] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[16:36:41] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[16:36:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:36:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[16:36:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - SkinsRestorer (15.7.10), WorldEdit (7.3.16+cbf4bd5)
-[16:33:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:33:09] [ServerMain/INFO]: Loaded 1407 recipes
-[16:33:09] [ServerMain/INFO]: Loaded 1520 advancements
-[16:33:09] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[16:33:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 670.4ms
-[16:33:10] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[16:33:10] [Server thread/INFO]: Loading properties
-[16:33:10] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[16:33:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:33:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:33:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:33:12] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[16:33:12] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[16:36:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:36:52] [ServerMain/INFO]: Loaded 1407 recipes
+[16:36:52] [ServerMain/INFO]: Loaded 1520 advancements
+[16:36:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:36:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 714.5ms
+[16:36:53] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[16:36:53] [Server thread/INFO]: Loading properties
+[16:36:53] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[16:36:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:36:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:36:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:36:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[16:36:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
