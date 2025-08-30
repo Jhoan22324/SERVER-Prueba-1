@@ -1,1 +1,0 @@
-schedule clear pcd:particles/repeat

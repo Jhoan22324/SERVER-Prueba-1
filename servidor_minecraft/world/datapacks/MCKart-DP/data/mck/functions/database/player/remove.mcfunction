@@ -1,1 +1,0 @@
-$data remove storage databases players[{data:{id:$(id)L}}]

@@ -1,1 +1,0 @@
-$data remove storage databases goods[{data:{id:$(id)L}}]

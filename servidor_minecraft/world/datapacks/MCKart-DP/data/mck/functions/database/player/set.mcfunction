@@ -1,1 +1,0 @@
-$data modify storage databases players[{data:{id:$(id)L}}].data set from storage databases input.data

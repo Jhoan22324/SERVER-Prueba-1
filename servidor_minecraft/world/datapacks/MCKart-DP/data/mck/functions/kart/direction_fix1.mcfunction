@@ -1,1 +1,0 @@
-scoreboard players set temp mck_dir -180

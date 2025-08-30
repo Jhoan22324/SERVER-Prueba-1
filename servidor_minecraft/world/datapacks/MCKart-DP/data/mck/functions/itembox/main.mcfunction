@@ -1,1 +1,0 @@
-execute if score kart_check mck_timer matches 20 run function mck:itembox/check

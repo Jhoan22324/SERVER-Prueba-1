@@ -1,1 +1,0 @@
-$data modify storage databases player_goods[{data:{id:$(id)L}}].data set from storage databases input.data

@@ -1,1 +1,0 @@
-scoreboard players set @s mck_toast_anim 5

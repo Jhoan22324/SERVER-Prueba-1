@@ -1,4 +1,0 @@
-kill @e[tag=mck_shop,sort=nearest,limit=1,distance=..4]
-kill @e[tag=mck_shop_item,sort=nearest,limit=1,distance=..4]
-kill @e[tag=mck_shop_text,sort=nearest,limit=1,distance=..4]
-kill @e[tag=mck_shop_interaction,sort=nearest,limit=1,distance=..4]

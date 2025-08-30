@@ -1,1 +1,0 @@
-scoreboard players set @s mck_pipe 80
